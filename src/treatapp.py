@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-treatment_api.py  —  Treatment Recommendation Service
+treatapp.py  —  Treatment Recommendation Service
 Runs on port 5001 (medibot_api runs on 5000)
 
 Accepts the exact output that medibot_api._build_results() returns and
@@ -22,10 +22,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# ─────────────────────────────────────────────────────────────────────────────
 # Treatment plans — keyed by the exact condition names medibot produces
 # (matches CONDITIONS list in medibot.py / medibot_api._build_results output)
-# ─────────────────────────────────────────────────────────────────────────────
+
 TREATMENTS = {
     "Common Cold": {
         "severity": "Low", "specialist": "General Physician", "duration": "7–10 days",
@@ -317,10 +316,8 @@ TREATMENTS = {
     },
 }
 
-
-# ─────────────────────────────────────────────────────────────────────────────
 # Helpers
-# ─────────────────────────────────────────────────────────────────────────────
+
 def _lookup(condition: str):
     """Exact match first, then case-insensitive partial match."""
     plan = TREATMENTS.get(condition)
@@ -345,7 +342,6 @@ def _build_plan(condition: str, plan: dict, medibot_data: dict | None = None) ->
         "follow_up":       plan["follow_up"],
         "doctor":          "AI Health Assistant",
         "date":            today,
-        # Pass-through fields from medibot if available
         "risk":            medibot_data.get("risk")          if medibot_data else None,
         "urgency":         medibot_data.get("urgency")       if medibot_data else None,
         "severitySignal":  medibot_data.get("severitySignal") if medibot_data else None,
@@ -353,10 +349,7 @@ def _build_plan(condition: str, plan: dict, medibot_data: dict | None = None) ->
                            "This is not a substitute for professional medical advice.",
     }
 
-
-# ─────────────────────────────────────────────────────────────────────────────
 # Routes
-# ─────────────────────────────────────────────────────────────────────────────
 
 @app.route("/api/treatment", methods=["POST"])
 def treatment_from_medibot():
