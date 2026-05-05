@@ -1,0 +1,1226 @@
+{
+  "Common Cold": {
+    "severity": "Low",
+    "specialist": "General Physician",
+    "duration": "7\u201310 days",
+    "recommendations": [
+      {
+        "type": "Rest",
+        "description": "Adequate rest for recovery. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      },
+      {
+        "type": "Fluids",
+        "description": "Drink warm fluids frequently. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      },
+      {
+        "type": "Medication",
+        "description": "OTC antihistamines/decongestants. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Steam",
+        "description": "Steam inhalation. Perform steam inhalation 1\u20132 times daily to relieve congestion and improve breathing."
+      }
+    ],
+    "follow_up": "Consult if symptoms last more than 10 days"
+  },
+  "Influenza": {
+    "severity": "Medium",
+    "specialist": "General Physician",
+    "duration": "5\u20137 days",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Oseltamivir if early. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Rest",
+        "description": "Bed rest. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      },
+      {
+        "type": "Fluids",
+        "description": "Hydration. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      }
+    ],
+    "follow_up": "Seek care if breathing difficulty"
+  },
+  "COVID-19": {
+    "severity": "High",
+    "specialist": "Pulmonologist",
+    "duration": "10\u201314 days",
+    "recommendations": [
+      {
+        "type": "Isolation",
+        "description": "Self isolate. Avoid close contact with others to prevent spreading the condition."
+      },
+      {
+        "type": "Monitor",
+        "description": "Check SpO2. Regularly monitor symptoms or vital parameters and seek help if they worsen."
+      },
+      {
+        "type": "Medication",
+        "description": "Paracetamol. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Hospitalize if oxygen low"
+  },
+  "Pneumonia": {
+    "severity": "High",
+    "specialist": "Pulmonologist",
+    "duration": "2\u20134 weeks",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antibiotics. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Oxygen",
+        "description": "Oxygen therapy. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Rest",
+        "description": "Complete rest. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      }
+    ],
+    "follow_up": "Chest follow-up needed"
+  },
+  "Asthma": {
+    "severity": "Medium",
+    "specialist": "Pulmonologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Inhaler",
+        "description": "Use inhaler. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Avoid",
+        "description": "Avoid triggers. Avoid triggers or habits that may worsen your condition."
+      },
+      {
+        "type": "Medication",
+        "description": "Controller meds. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Emergency if severe attack"
+  },
+  "Bronchitis": {
+    "severity": "Low",
+    "specialist": "General Physician",
+    "duration": "1\u20133 weeks",
+    "recommendations": [
+      {
+        "type": "Rest",
+        "description": "Adequate rest. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      },
+      {
+        "type": "Fluids",
+        "description": "Hydration. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      },
+      {
+        "type": "Steam",
+        "description": "Steam inhalation. Perform steam inhalation 1\u20132 times daily to relieve congestion and improve breathing."
+      }
+    ],
+    "follow_up": "If cough persists"
+  },
+  "Tuberculosis": {
+    "severity": "High",
+    "specialist": "Pulmonologist",
+    "duration": "6\u20139 months",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Anti-TB regimen. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Isolation",
+        "description": "Prevent spread. Avoid close contact with others to prevent spreading the condition."
+      },
+      {
+        "type": "Nutrition",
+        "description": "High protein diet. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Strict adherence required"
+  },
+  "Dengue Fever": {
+    "severity": "High",
+    "specialist": "Physician",
+    "duration": "1\u20132 weeks",
+    "recommendations": [
+      {
+        "type": "Hydration",
+        "description": "IV/Oral fluids. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Monitor",
+        "description": "Platelet levels. Regularly monitor symptoms or vital parameters and seek help if they worsen."
+      },
+      {
+        "type": "Medication",
+        "description": "Paracetamol only. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Hospital if severe"
+  },
+  "Malaria": {
+    "severity": "High",
+    "specialist": "Physician",
+    "duration": "1\u20132 weeks",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antimalarial drugs. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Rest",
+        "description": "Bed rest. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      },
+      {
+        "type": "Fluids",
+        "description": "Hydration. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      }
+    ],
+    "follow_up": "Blood test check"
+  },
+  "Typhoid Fever": {
+    "severity": "High",
+    "specialist": "Physician",
+    "duration": "2\u20133 weeks",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antibiotics. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Diet",
+        "description": "Soft diet. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Fluids",
+        "description": "Hydration. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      }
+    ],
+    "follow_up": "Complete antibiotics"
+  },
+  "Chikungunya": {
+    "severity": "Medium",
+    "specialist": "Physician",
+    "duration": "1\u20132 weeks",
+    "recommendations": [
+      {
+        "type": "Rest",
+        "description": "Rest. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      },
+      {
+        "type": "Medication",
+        "description": "Pain relief. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Fluids",
+        "description": "Hydration. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      }
+    ],
+    "follow_up": "Joint pain may persist"
+  },
+  "Food Poisoning": {
+    "severity": "Medium",
+    "specialist": "General Physician",
+    "duration": "1\u20133 days",
+    "recommendations": [
+      {
+        "type": "ORS",
+        "description": "Oral rehydration. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Diet",
+        "description": "Light food. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Medication",
+        "description": "Antiemetics. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "If dehydration"
+  },
+  "Gastroenteritis": {
+    "severity": "Medium",
+    "specialist": "Gastroenterologist",
+    "duration": "2\u20135 days",
+    "recommendations": [
+      {
+        "type": "ORS",
+        "description": "Hydration. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Diet",
+        "description": "BRAT diet. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Avoid",
+        "description": "Avoid dairy. Avoid triggers or habits that may worsen your condition."
+      }
+    ],
+    "follow_up": "Hospital if severe"
+  },
+  "Appendicitis": {
+    "severity": "High",
+    "specialist": "Surgeon",
+    "duration": "Emergency",
+    "recommendations": [
+      {
+        "type": "Emergency",
+        "description": "Immediate surgery. Seek immediate medical attention without delay."
+      }
+    ],
+    "follow_up": "Urgent care"
+  },
+  "Acid Reflux": {
+    "severity": "Low",
+    "specialist": "Gastroenterologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Diet",
+        "description": "Avoid spicy foods. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Medication",
+        "description": "Antacids. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Lifestyle",
+        "description": "Small meals. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "If persistent"
+  },
+  "Irritable Bowel Syndrome": {
+    "severity": "Medium",
+    "specialist": "Gastroenterologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Diet",
+        "description": "Fiber diet. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Stress",
+        "description": "Manage stress. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Medication",
+        "description": "Symptom relief meds. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Long-term care"
+  },
+  "Peptic Ulcer": {
+    "severity": "Medium",
+    "specialist": "Gastroenterologist",
+    "duration": "4\u20138 weeks",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "PPIs. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Avoid",
+        "description": "Avoid NSAIDs. Avoid triggers or habits that may worsen your condition."
+      },
+      {
+        "type": "Diet",
+        "description": "Balanced diet. Follow a balanced, easily digestible diet to support recovery."
+      }
+    ],
+    "follow_up": "Endoscopy if needed"
+  },
+  "Hypertension": {
+    "severity": "Medium",
+    "specialist": "Cardiologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Monitor",
+        "description": "Check BP. Regularly monitor symptoms or vital parameters and seek help if they worsen."
+      },
+      {
+        "type": "Diet",
+        "description": "Low salt. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Medication",
+        "description": "Antihypertensives. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Regular checkups"
+  },
+  "Heart Attack": {
+    "severity": "High",
+    "specialist": "Cardiologist",
+    "duration": "Emergency",
+    "recommendations": [
+      {
+        "type": "Emergency",
+        "description": "Call emergency. Seek immediate medical attention without delay."
+      },
+      {
+        "type": "Medication",
+        "description": "Aspirin. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Immediate hospitalization"
+  },
+  "Stroke": {
+    "severity": "High",
+    "specialist": "Neurologist",
+    "duration": "Emergency",
+    "recommendations": [
+      {
+        "type": "Emergency",
+        "description": "Immediate care. Seek immediate medical attention without delay."
+      },
+      {
+        "type": "FAST",
+        "description": "Recognize symptoms. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Critical"
+  },
+  "Anemia": {
+    "severity": "Medium",
+    "specialist": "Physician",
+    "duration": "Weeks",
+    "recommendations": [
+      {
+        "type": "Diet",
+        "description": "Iron foods. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Supplement",
+        "description": "Iron tablets. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Treat cause"
+  },
+  "Leukemia": {
+    "severity": "High",
+    "specialist": "Oncologist",
+    "duration": "Long-term",
+    "recommendations": [
+      {
+        "type": "Chemotherapy",
+        "description": "Primary treatment. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Transplant",
+        "description": "Bone marrow. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Specialist care"
+  },
+  "Hypothyroidism": {
+    "severity": "Medium",
+    "specialist": "Endocrinologist",
+    "duration": "Lifelong",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Levothyroxine. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Monitor",
+        "description": "TSH levels. Regularly monitor symptoms or vital parameters and seek help if they worsen."
+      }
+    ],
+    "follow_up": "Regular testing"
+  },
+  "Hyperthyroidism": {
+    "severity": "Medium",
+    "specialist": "Endocrinologist",
+    "duration": "Months",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antithyroid drugs. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Beta-blocker",
+        "description": "Control symptoms. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Monitor"
+  },
+  "Type 1 Diabetes": {
+    "severity": "High",
+    "specialist": "Endocrinologist",
+    "duration": "Lifelong",
+    "recommendations": [
+      {
+        "type": "Insulin",
+        "description": "Daily insulin. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Monitor",
+        "description": "Sugar levels. Regularly monitor symptoms or vital parameters and seek help if they worsen."
+      }
+    ],
+    "follow_up": "Strict control"
+  },
+  "Type 2 Diabetes": {
+    "severity": "Medium",
+    "specialist": "Endocrinologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Diet",
+        "description": "Low sugar. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Exercise",
+        "description": "Daily activity. Engage in regular physical activity as tolerated to maintain overall health."
+      },
+      {
+        "type": "Medication",
+        "description": "Metformin. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Regular monitoring"
+  },
+  "Obesity": {
+    "severity": "Medium",
+    "specialist": "Dietician",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Diet",
+        "description": "Calorie control. Follow a balanced, easily digestible diet to support recovery."
+      },
+      {
+        "type": "Exercise",
+        "description": "Regular exercise. Engage in regular physical activity as tolerated to maintain overall health."
+      }
+    ],
+    "follow_up": "Lifestyle change"
+  },
+  "Dehydration": {
+    "severity": "Low",
+    "specialist": "General Physician",
+    "duration": "Hours",
+    "recommendations": [
+      {
+        "type": "Fluids",
+        "description": "Water/ORS. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      },
+      {
+        "type": "Avoid",
+        "description": "Avoid caffeine. Avoid triggers or habits that may worsen your condition."
+      }
+    ],
+    "follow_up": "IV fluids if severe"
+  },
+  "Migraine": {
+    "severity": "Medium",
+    "specialist": "Neurologist",
+    "duration": "Hours\u2013days",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Painkillers. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Rest",
+        "description": "Dark room. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      }
+    ],
+    "follow_up": "If frequent"
+  },
+  "Epilepsy": {
+    "severity": "High",
+    "specialist": "Neurologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antiepileptics. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Regular checkups"
+  },
+  "Parkinson's Disease": {
+    "severity": "High",
+    "specialist": "Neurologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Levodopa. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Therapy",
+        "description": "Physiotherapy. Follow therapy sessions consistently as advised by your healthcare provider."
+      }
+    ],
+    "follow_up": "Progressive care"
+  },
+  "Alzheimer's Disease": {
+    "severity": "High",
+    "specialist": "Neurologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Support",
+        "description": "Caregiver support. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Medication",
+        "description": "Cognitive enhancers. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Long-term care"
+  },
+  "Meningitis": {
+    "severity": "High",
+    "specialist": "Emergency",
+    "duration": "Emergency",
+    "recommendations": [
+      {
+        "type": "Emergency",
+        "description": "Immediate hospitalization. Seek immediate medical attention without delay."
+      },
+      {
+        "type": "Medication",
+        "description": "IV antibiotics. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Urgent care"
+  },
+  "Sciatica": {
+    "severity": "Low",
+    "specialist": "Orthopedic",
+    "duration": "Weeks",
+    "recommendations": [
+      {
+        "type": "Physiotherapy",
+        "description": "Exercises. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Medication",
+        "description": "Pain relief. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "If persistent"
+  },
+  "Arthritis": {
+    "severity": "Medium",
+    "specialist": "Rheumatologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "NSAIDs. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Exercise",
+        "description": "Joint mobility. Engage in regular physical activity as tolerated to maintain overall health."
+      }
+    ],
+    "follow_up": "Long-term"
+  },
+  "Osteoporosis": {
+    "severity": "Medium",
+    "specialist": "Orthopedic",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Supplements",
+        "description": "Calcium + Vitamin D. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Exercise",
+        "description": "Weight training. Engage in regular physical activity as tolerated to maintain overall health."
+      }
+    ],
+    "follow_up": "Bone density check"
+  },
+  "Gout": {
+    "severity": "Medium",
+    "specialist": "Rheumatologist",
+    "duration": "Episodes",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Colchicine. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Diet",
+        "description": "Avoid purines. Follow a balanced, easily digestible diet to support recovery."
+      }
+    ],
+    "follow_up": "Monitor uric acid"
+  },
+  "Chronic Kidney Disease": {
+    "severity": "High",
+    "specialist": "Nephrologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Dialysis",
+        "description": "If advanced. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Diet",
+        "description": "Low protein. Follow a balanced, easily digestible diet to support recovery."
+      }
+    ],
+    "follow_up": "Regular tests"
+  },
+  "Urinary Tract Infection": {
+    "severity": "Medium",
+    "specialist": "Physician",
+    "duration": "3\u20137 days",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antibiotics. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Fluids",
+        "description": "Hydration. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      }
+    ],
+    "follow_up": "If recurring"
+  },
+  "Kidney Stones": {
+    "severity": "High",
+    "specialist": "Urologist",
+    "duration": "Days\u2013weeks",
+    "recommendations": [
+      {
+        "type": "Fluids",
+        "description": "Drink water. Drink plenty of water, warm fluids, or electrolyte solutions to stay hydrated."
+      },
+      {
+        "type": "Medication",
+        "description": "Pain relief. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Surgery if large"
+  },
+  "Prostate Enlargement": {
+    "severity": "Medium",
+    "specialist": "Urologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Alpha blockers. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Monitor",
+        "description": "PSA tests. Regularly monitor symptoms or vital parameters and seek help if they worsen."
+      }
+    ],
+    "follow_up": "If severe symptoms"
+  },
+  "Eczema": {
+    "severity": "Low",
+    "specialist": "Dermatologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Moisturizer",
+        "description": "Skin hydration. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Medication",
+        "description": "Steroid creams. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Avoid triggers"
+  },
+  "Psoriasis": {
+    "severity": "Medium",
+    "specialist": "Dermatologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Topical",
+        "description": "Steroids. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Therapy",
+        "description": "Phototherapy. Follow therapy sessions consistently as advised by your healthcare provider."
+      }
+    ],
+    "follow_up": "Chronic care"
+  },
+  "Acne": {
+    "severity": "Low",
+    "specialist": "Dermatologist",
+    "duration": "Weeks",
+    "recommendations": [
+      {
+        "type": "Topical",
+        "description": "Benzoyl peroxide. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Hygiene",
+        "description": "Skin care. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "If severe"
+  },
+  "Conjunctivitis": {
+    "severity": "Low",
+    "specialist": "Ophthalmologist",
+    "duration": "5\u20137 days",
+    "recommendations": [
+      {
+        "type": "Drops",
+        "description": "Eye drops. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Hygiene",
+        "description": "Clean eyes. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Avoid lenses"
+  },
+  "Glaucoma": {
+    "severity": "High",
+    "specialist": "Ophthalmologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Eye pressure lowering drops. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Surgery",
+        "description": "If severe. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Regular eye checkups"
+  },
+  "Cataract": {
+    "severity": "Medium",
+    "specialist": "Ophthalmologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Surgery",
+        "description": "Lens replacement. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Post-surgery care"
+  },
+  "Otitis Media": {
+    "severity": "Medium",
+    "specialist": "ENT",
+    "duration": "1\u20132 weeks",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antibiotics. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Pain Relief",
+        "description": "Analgesics. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "If persistent"
+  },
+  "Sinusitis": {
+    "severity": "Low",
+    "specialist": "ENT",
+    "duration": "7\u201310 days",
+    "recommendations": [
+      {
+        "type": "Steam",
+        "description": "Steam inhalation. Perform steam inhalation 1\u20132 times daily to relieve congestion and improve breathing."
+      },
+      {
+        "type": "Medication",
+        "description": "Decongestants. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "If chronic"
+  },
+  "COPD": {
+    "severity": "High",
+    "specialist": "Pulmonologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Stop Smoking",
+        "description": "Quit smoking. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Inhalers",
+        "description": "Bronchodilators. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Long-term management"
+  },
+  "Pulmonary Embolism": {
+    "severity": "High",
+    "specialist": "Cardiologist",
+    "duration": "Emergency",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Anticoagulants. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Hospital",
+        "description": "Immediate care. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Critical"
+  },
+  "Deep Vein Thrombosis": {
+    "severity": "High",
+    "specialist": "Cardiologist",
+    "duration": "Weeks",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Blood thinners. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Compression",
+        "description": "Stockings. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Prevent complications"
+  },
+  "Atrial Fibrillation": {
+    "severity": "High",
+    "specialist": "Cardiologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Rate control drugs. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Anticoagulants",
+        "description": "Prevent clots. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Regular ECG"
+  },
+  "Heart Failure": {
+    "severity": "High",
+    "specialist": "Cardiologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "ACE inhibitors. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Diet",
+        "description": "Low salt. Follow a balanced, easily digestible diet to support recovery."
+      }
+    ],
+    "follow_up": "Close monitoring"
+  },
+  "Angina": {
+    "severity": "Medium",
+    "specialist": "Cardiologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Nitroglycerin. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Lifestyle",
+        "description": "Exercise. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Cardiac evaluation"
+  },
+  "Hepatitis A": {
+    "severity": "Medium",
+    "specialist": "Gastroenterologist",
+    "duration": "Weeks",
+    "recommendations": [
+      {
+        "type": "Rest",
+        "description": "Adequate rest. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      },
+      {
+        "type": "Diet",
+        "description": "Light diet. Follow a balanced, easily digestible diet to support recovery."
+      }
+    ],
+    "follow_up": "Recovery monitoring"
+  },
+  "Hepatitis B": {
+    "severity": "High",
+    "specialist": "Gastroenterologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antivirals. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Monitor",
+        "description": "Liver function. Regularly monitor symptoms or vital parameters and seek help if they worsen."
+      }
+    ],
+    "follow_up": "Long-term care"
+  },
+  "Hepatitis C": {
+    "severity": "High",
+    "specialist": "Gastroenterologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Direct antivirals. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Regular tests"
+  },
+  "Cirrhosis": {
+    "severity": "High",
+    "specialist": "Gastroenterologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Manage symptoms. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Avoid",
+        "description": "No alcohol. Avoid triggers or habits that may worsen your condition."
+      }
+    ],
+    "follow_up": "Transplant if severe"
+  },
+  "Gallstones": {
+    "severity": "Medium",
+    "specialist": "Surgeon",
+    "duration": "Weeks",
+    "recommendations": [
+      {
+        "type": "Surgery",
+        "description": "Gallbladder removal. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "If painful"
+  },
+  "Pancreatitis": {
+    "severity": "High",
+    "specialist": "Gastroenterologist",
+    "duration": "Days\u2013weeks",
+    "recommendations": [
+      {
+        "type": "Hospital",
+        "description": "IV fluids. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Rest",
+        "description": "No food initially. Ensure proper rest with at least 7\u20138 hours of sleep and avoid strenuous activity."
+      }
+    ],
+    "follow_up": "Serious condition"
+  },
+  "Rheumatoid Arthritis": {
+    "severity": "Medium",
+    "specialist": "Rheumatologist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "DMARDs. Take medications only as prescribed or recommended by a healthcare professional."
+      },
+      {
+        "type": "Exercise",
+        "description": "Joint mobility. Engage in regular physical activity as tolerated to maintain overall health."
+      }
+    ],
+    "follow_up": "Long-term care"
+  },
+  "Fibromyalgia": {
+    "severity": "Medium",
+    "specialist": "Physician",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Exercise",
+        "description": "Regular activity. Engage in regular physical activity as tolerated to maintain overall health."
+      },
+      {
+        "type": "Therapy",
+        "description": "Stress management. Follow therapy sessions consistently as advised by your healthcare provider."
+      }
+    ],
+    "follow_up": "Chronic condition"
+  },
+  "Carpal Tunnel Syndrome": {
+    "severity": "Low",
+    "specialist": "Orthopedic",
+    "duration": "Weeks",
+    "recommendations": [
+      {
+        "type": "Splint",
+        "description": "Wrist splint. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Medication",
+        "description": "Pain relief. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Surgery if severe"
+  },
+  "Anxiety Disorder": {
+    "severity": "Medium",
+    "specialist": "Psychiatrist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Therapy",
+        "description": "CBT. Follow therapy sessions consistently as advised by your healthcare provider."
+      },
+      {
+        "type": "Medication",
+        "description": "Anxiolytics. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Mental health care"
+  },
+  "Depression": {
+    "severity": "Medium",
+    "specialist": "Psychiatrist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Therapy",
+        "description": "Counseling. Follow therapy sessions consistently as advised by your healthcare provider."
+      },
+      {
+        "type": "Medication",
+        "description": "Antidepressants. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Regular support"
+  },
+  "Bipolar Disorder": {
+    "severity": "High",
+    "specialist": "Psychiatrist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Mood stabilizers. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Long-term care"
+  },
+  "Schizophrenia": {
+    "severity": "High",
+    "specialist": "Psychiatrist",
+    "duration": "Chronic",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Antipsychotics. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Continuous care"
+  },
+  "Breast Cancer": {
+    "severity": "High",
+    "specialist": "Oncologist",
+    "duration": "Long-term",
+    "recommendations": [
+      {
+        "type": "Surgery",
+        "description": "Tumor removal. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Chemotherapy",
+        "description": "Cancer treatment. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Oncology care"
+  },
+  "Lung Cancer": {
+    "severity": "High",
+    "specialist": "Oncologist",
+    "duration": "Long-term",
+    "recommendations": [
+      {
+        "type": "Chemotherapy",
+        "description": "Treatment. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Radiation",
+        "description": "If needed. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Specialist care"
+  },
+  "Colon Cancer": {
+    "severity": "High",
+    "specialist": "Oncologist",
+    "duration": "Long-term",
+    "recommendations": [
+      {
+        "type": "Surgery",
+        "description": "Tumor removal. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "Chemotherapy",
+        "description": "Treatment. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Regular screening"
+  },
+  "HIV Infection": {
+    "severity": "High",
+    "specialist": "Infectious Disease",
+    "duration": "Lifelong",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "ART therapy. Take medications only as prescribed or recommended by a healthcare professional."
+      }
+    ],
+    "follow_up": "Strict adherence"
+  },
+  "Rabies": {
+    "severity": "High",
+    "specialist": "Emergency",
+    "duration": "Emergency",
+    "recommendations": [
+      {
+        "type": "Vaccination",
+        "description": "Immediate rabies vaccine. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Urgent"
+  },
+  "Tetanus": {
+    "severity": "High",
+    "specialist": "Emergency",
+    "duration": "Emergency",
+    "recommendations": [
+      {
+        "type": "Antitoxin",
+        "description": "Tetanus immunoglobulin. Follow this recommendation carefully and consult a doctor if needed."
+      },
+      {
+        "type": "ICU",
+        "description": "Critical care. Follow this recommendation carefully and consult a doctor if needed."
+      }
+    ],
+    "follow_up": "Emergency"
+  }
+}
