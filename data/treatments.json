@@ -659,22 +659,6 @@
     ],
     "follow_up": "Monitor uric acid"
   },
-  "Chronic Kidney Disease": {
-    "severity": "High",
-    "specialist": "Nephrologist",
-    "duration": "Chronic",
-    "recommendations": [
-      {
-        "type": "Dialysis",
-        "description": "If advanced. Follow this recommendation carefully and consult a doctor if needed."
-      },
-      {
-        "type": "Diet",
-        "description": "Low protein. Follow a balanced, easily digestible diet to support recovery."
-      }
-    ],
-    "follow_up": "Regular tests"
-  },
   "Urinary Tract Infection": {
     "severity": "Medium",
     "specialist": "Physician",
@@ -1222,5 +1206,1141 @@
       }
     ],
     "follow_up": "Emergency"
+  },
+  "Down Syndrome": {
+    "severity": "Medium",
+    "specialist": "Geneticist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Developmental Therapy",
+        "description": "Speech, occupational, and physical therapy help improve daily functioning."
+      },
+      {
+        "type": "Medical Monitoring",
+        "description": "Regular heart, hearing, and thyroid evaluations are important."
+      },
+      {
+        "type": "Education",
+        "description": "Provide individualized educational and learning support."
+      },
+      {
+        "type": "Family Support",
+        "description": "Counseling and support groups may help families cope effectively."
+      }
+    ],
+    "follow_up": "Routine developmental and medical evaluations are necessary"
+  },
+
+  "Turner Syndrome": {
+    "severity": "Medium",
+    "specialist": "Endocrinologist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Hormone Therapy",
+        "description": "Growth hormone and estrogen therapy may be recommended."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular heart, kidney, and bone health evaluations are important."
+      },
+      {
+        "type": "Nutrition",
+        "description": "Maintain balanced diet and adequate calcium intake."
+      },
+      {
+        "type": "Counseling",
+        "description": "Psychological and reproductive counseling may be beneficial."
+      }
+    ],
+    "follow_up": "Regular endocrine follow-up is recommended"
+  },
+
+  "Klinefelter Syndrome": {
+    "severity": "Medium",
+    "specialist": "Endocrinologist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Testosterone Therapy",
+        "description": "Hormone replacement therapy may improve physical development."
+      },
+      {
+        "type": "Exercise",
+        "description": "Regular exercise improves muscle and bone strength."
+      },
+      {
+        "type": "Fertility Care",
+        "description": "Consult fertility specialists if reproductive planning is needed."
+      },
+      {
+        "type": "Educational Support",
+        "description": "Learning and behavioral support may help affected individuals."
+      }
+    ],
+    "follow_up": "Routine hormonal monitoring is advised"
+  },
+
+  "Polycystic Ovary Syndrome": {
+    "severity": "Medium",
+    "specialist": "Gynecologist",
+    "duration": "Long-term condition",
+    "recommendations": [
+      {
+        "type": "Weight Management",
+        "description": "Maintain healthy weight through regular exercise and balanced diet."
+      },
+      {
+        "type": "Hormonal Treatment",
+        "description": "Hormonal medications may help regulate menstrual cycles."
+      },
+      {
+        "type": "Diet",
+        "description": "Follow low-sugar and low-fat dietary habits."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular monitoring of blood sugar and hormone levels is important."
+      }
+    ],
+    "follow_up": "Consult if symptoms worsen or fertility issues continue"
+  },
+
+  "Infertility": {
+    "severity": "Medium",
+    "specialist": "Fertility Specialist",
+    "duration": "Depends on underlying cause",
+    "recommendations": [
+      {
+        "type": "Medical Evaluation",
+        "description": "Complete reproductive and hormonal assessment is advised."
+      },
+      {
+        "type": "Lifestyle",
+        "description": "Avoid smoking, alcohol, and maintain healthy body weight."
+      },
+      {
+        "type": "Medication",
+        "description": "Fertility medications or hormone therapy may be prescribed."
+      },
+      {
+        "type": "Counseling",
+        "description": "Psychological support may help emotional well-being."
+      }
+    ],
+    "follow_up": "Consult specialist if conception does not occur after 1 year"
+  },
+
+  "Erectile Dysfunction": {
+    "severity": "Medium",
+    "specialist": "Urologist",
+    "duration": "Depends on underlying cause",
+    "recommendations": [
+      {
+        "type": "Lifestyle Changes",
+        "description": "Exercise regularly and avoid smoking or excessive alcohol."
+      },
+      {
+        "type": "Medication",
+        "description": "Prescription medications may improve erectile function."
+      },
+      {
+        "type": "Stress Management",
+        "description": "Reduce anxiety and stress through counseling or therapy."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Monitor blood pressure, diabetes, and hormonal health."
+      }
+    ],
+    "follow_up": "Consult if symptoms persist for several weeks"
+  },
+
+  "Endometriosis": {
+    "severity": "High",
+    "specialist": "Gynecologist",
+    "duration": "Chronic condition",
+    "recommendations": [
+      {
+        "type": "Pain Relief",
+        "description": "Use prescribed medications to control pelvic pain."
+      },
+      {
+        "type": "Hormonal Therapy",
+        "description": "Hormonal treatment may reduce abnormal tissue growth."
+      },
+      {
+        "type": "Surgery",
+        "description": "Surgical removal of tissue may be needed in severe cases."
+      },
+      {
+        "type": "Lifestyle",
+        "description": "Regular exercise and stress management may help symptoms."
+      }
+    ],
+    "follow_up": "Consult if severe pelvic pain or infertility occurs"
+  },
+
+  "Ectopic Pregnancy": {
+    "severity": "High",
+    "specialist": "Gynecologist",
+    "duration": "Emergency condition",
+    "recommendations": [
+      {
+        "type": "Emergency Care",
+        "description": "Immediate hospitalization and medical evaluation are necessary."
+      },
+      {
+        "type": "Medication",
+        "description": "Methotrexate may be prescribed in selected cases."
+      },
+      {
+        "type": "Surgery",
+        "description": "Surgical treatment may be required to prevent complications."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular follow-up scans and blood tests are important."
+      }
+    ],
+    "follow_up": "Seek immediate care for severe abdominal pain or bleeding"
+  },
+
+  "Ovarian Cyst": {
+    "severity": "Medium",
+    "specialist": "Gynecologist",
+    "duration": "Weeks to months",
+    "recommendations": [
+      {
+        "type": "Monitoring",
+        "description": "Regular ultrasound scans help monitor cyst growth."
+      },
+      {
+        "type": "Pain Management",
+        "description": "Pain relievers may help reduce discomfort."
+      },
+      {
+        "type": "Hormonal Therapy",
+        "description": "Hormonal medications may prevent new cyst formation."
+      },
+      {
+        "type": "Surgery",
+        "description": "Large or persistent cysts may require surgical removal."
+      }
+    ],
+    "follow_up": "Consult immediately for sudden severe abdominal pain"
+  },
+
+  "Fatty Liver Disease": {
+    "severity": "Medium",
+    "specialist": "Gastroenterologist",
+    "duration": "Months to years",
+    "recommendations": [
+      {
+        "type": "Weight Loss",
+        "description": "Gradual weight reduction improves liver function."
+      },
+      {
+        "type": "Diet",
+        "description": "Avoid alcohol, sugary foods, and unhealthy fats."
+      },
+      {
+        "type": "Exercise",
+        "description": "Engage in regular physical activity."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular liver function tests are recommended."
+      }
+    ],
+    "follow_up": "Consult if jaundice or abdominal pain develops"
+  },
+  "Insomnia": {
+    "severity": "Medium",
+    "specialist": "Neurologist",
+    "duration": "Days to months",
+    "recommendations": [
+      {"type": "Sleep Hygiene", "description": "Maintain a fixed sleep schedule and avoid screens before bedtime."},
+      {"type": "Relaxation", "description": "Practice meditation, breathing exercises, or calming routines before sleep."},
+      {"type": "Lifestyle", "description": "Avoid caffeine, heavy meals, and late-night screen exposure."},
+      {"type": "Medication", "description": "Sleep medicines should be taken only under medical supervision."}
+    ],
+    "follow_up": "Consult if sleep problems continue for more than 2 weeks"
+  },
+
+  "Inguinal Hernia": {
+    "severity": "Medium",
+    "specialist": "General Surgeon",
+    "duration": "Persists until treated",
+    "recommendations": [
+      {"type": "Activity Restriction", "description": "Avoid heavy lifting and activities that increase abdominal pressure."},
+      {"type": "Support", "description": "Use hernia support only if advised by a doctor."},
+      {"type": "Surgery", "description": "Surgical repair is often required for persistent or large hernias."},
+      {"type": "Monitoring", "description": "Watch for severe pain, vomiting, or inability to push the bulge back."}
+    ],
+    "follow_up": "Seek emergency care if severe pain, vomiting, or trapped hernia symptoms occur"
+  },
+
+  "Cervical Cancer": {
+    "severity": "High",
+    "specialist": "Oncologist",
+    "duration": "Varies by stage",
+    "recommendations": [
+      {"type": "Screening", "description": "Regular Pap smear and HPV testing help detect early changes."},
+      {"type": "Treatment", "description": "Treatment may include surgery, radiation therapy, or chemotherapy."},
+      {"type": "Vaccination", "description": "HPV vaccination can reduce risk of HPV-related cervical cancer."},
+      {"type": "Monitoring", "description": "Regular oncology follow-up is needed after diagnosis or treatment."}
+    ],
+    "follow_up": "Consult immediately for abnormal bleeding, pelvic pain, or unusual discharge"
+  },
+
+  "Tonsillitis": {
+    "severity": "Low",
+    "specialist": "ENT Specialist",
+    "duration": "7–14 days",
+    "recommendations": [
+      {"type": "Rest", "description": "Take adequate rest and avoid exertion during infection."},
+      {"type": "Fluids", "description": "Drink warm fluids to soothe throat irritation."},
+      {"type": "Gargling", "description": "Warm salt-water gargles may reduce throat pain."},
+      {"type": "Medication", "description": "Antibiotics should be used only if bacterial tonsillitis is confirmed."}
+    ],
+    "follow_up": "Consult if high fever, breathing difficulty, or repeated tonsillitis occurs"
+  },
+
+  "Testicular Cancer": {
+    "severity": "High",
+    "specialist": "Oncologist",
+    "duration": "Depends on stage",
+    "recommendations": [
+      {"type": "Examination", "description": "Testicular lumps or swelling should be examined promptly."},
+      {"type": "Imaging", "description": "Ultrasound and blood tests may be needed for diagnosis."},
+      {"type": "Treatment", "description": "Treatment may include surgery, chemotherapy, or radiation."},
+      {"type": "Monitoring", "description": "Regular follow-up is required after treatment."}
+    ],
+    "follow_up": "Consult immediately if a painless lump, swelling, or heaviness is noticed"
+  },
+
+  "Tourette Syndrome": {
+    "severity": "Medium",
+    "specialist": "Neurologist",
+    "duration": "Chronic condition",
+    "recommendations": [
+      {"type": "Behavioral Therapy", "description": "Behavioral therapy can help manage motor and vocal tics."},
+      {"type": "Medication", "description": "Medicines may be prescribed if tics interfere with daily life."},
+      {"type": "Stress Management", "description": "Reduce stress because it may worsen tics."},
+      {"type": "Support", "description": "School, workplace, and family support can improve coping."}
+    ],
+    "follow_up": "Consult if tics affect daily activities, learning, or social life"
+  },
+
+  "Hemorrhoids": {
+    "severity": "Medium",
+    "specialist": "General Surgeon",
+    "duration": "Days to weeks",
+    "recommendations": [
+      {"type": "Diet", "description": "Eat high-fiber foods to prevent constipation."},
+      {"type": "Fluids", "description": "Drink enough water daily to soften stools."},
+      {"type": "Warm Bath", "description": "Sitz baths may reduce pain and swelling."},
+      {"type": "Medication", "description": "Use prescribed creams or pain relief medicines if needed."}
+    ],
+    "follow_up": "Consult if bleeding, severe pain, or swelling persists"
+  },
+
+  "Varicose Veins": {
+    "severity": "Low",
+    "specialist": "Vascular Surgeon",
+    "duration": "Chronic condition",
+    "recommendations": [
+      {"type": "Compression", "description": "Use compression stockings if advised by a doctor."},
+      {"type": "Exercise", "description": "Regular walking improves blood circulation in legs."},
+      {"type": "Leg Elevation", "description": "Elevate legs periodically to reduce swelling."},
+      {"type": "Lifestyle", "description": "Avoid standing or sitting for very long periods."}
+    ],
+    "follow_up": "Consult if pain, skin ulcers, or severe swelling develops"
+  },
+
+  "Dandruff": {
+    "severity": "Low",
+    "specialist": "Dermatologist",
+    "duration": "Weeks to months",
+    "recommendations": [
+      {"type": "Shampoo", "description": "Use anti-dandruff shampoo regularly as directed."},
+      {"type": "Scalp Hygiene", "description": "Keep scalp clean and avoid excessive oil buildup."},
+      {"type": "Diet", "description": "Maintain balanced nutrition for healthy skin and scalp."},
+      {"type": "Stress Management", "description": "Reduce stress as it may worsen dandruff."}
+    ],
+    "follow_up": "Consult if severe itching, redness, or hair fall occurs"
+  },
+
+  "Myopia": {
+    "severity": "Low",
+    "specialist": "Ophthalmologist",
+    "duration": "Long-term condition",
+    "recommendations": [
+      {"type": "Corrective Lenses", "description": "Wear prescribed glasses or contact lenses."},
+      {"type": "Eye Checkup", "description": "Regular eye examinations help monitor vision changes."},
+      {"type": "Screen Breaks", "description": "Take breaks from prolonged screen use."},
+      {"type": "Lighting", "description": "Use proper lighting while reading or studying."}
+    ],
+    "follow_up": "Consult if distant vision worsens rapidly"
+  },
+
+  "Hyperopia": {
+    "severity": "Low",
+    "specialist": "Ophthalmologist",
+    "duration": "Long-term condition",
+    "recommendations": [
+      {"type": "Corrective Lenses", "description": "Use prescribed glasses or contact lenses."},
+      {"type": "Eye Care", "description": "Avoid prolonged close work without breaks."},
+      {"type": "Checkup", "description": "Routine eye checkups are recommended."},
+      {"type": "Lighting", "description": "Maintain good lighting while reading."}
+    ],
+    "follow_up": "Consult if headaches, eye strain, or blurry near vision increases"
+  },
+  "Tinnitus": {
+    "severity": "Low",
+    "specialist": "ENT Specialist",
+    "duration": "Weeks to lifelong",
+    "recommendations": [
+      {
+        "type": "Hearing Protection",
+        "description": "Avoid loud noises and use ear protection in noisy environments."
+      },
+      {
+        "type": "Sound Therapy",
+        "description": "White noise or calming background sounds may reduce ringing sensation."
+      },
+      {
+        "type": "Stress Management",
+        "description": "Practice relaxation techniques to reduce symptom intensity."
+      },
+      {
+        "type": "Medical Evaluation",
+        "description": "Regular hearing assessments help identify underlying causes."
+      }
+    ],
+    "follow_up": "Consult if tinnitus worsens or hearing loss develops"
+  },
+
+  "Rickets": {
+    "severity": "Medium",
+    "specialist": "Orthopedic Doctor",
+    "duration": "Months with treatment",
+    "recommendations": [
+      {
+        "type": "Vitamin D",
+        "description": "Take vitamin D supplements regularly as prescribed."
+      },
+      {
+        "type": "Calcium",
+        "description": "Increase calcium-rich foods such as milk and dairy products."
+      },
+      {
+        "type": "Sunlight",
+        "description": "Ensure regular sunlight exposure for natural vitamin D production."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular bone growth assessments are recommended."
+      }
+    ],
+    "follow_up": "Consult if bone deformities or delayed growth continue"
+  },
+
+  "Poliomyelitis": {
+    "severity": "High",
+    "specialist": "Neurologist",
+    "duration": "Can be lifelong",
+    "recommendations": [
+      {
+        "type": "Vaccination",
+        "description": "Ensure complete vaccination to prevent future infections."
+      },
+      {
+        "type": "Physical Therapy",
+        "description": "Rehabilitation exercises help improve muscle function."
+      },
+      {
+        "type": "Supportive Care",
+        "description": "Maintain proper nutrition and respiratory support if necessary."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Monitor muscle weakness and breathing difficulties carefully."
+      }
+    ],
+    "follow_up": "Immediate medical care required for paralysis or breathing issues"
+  },
+
+  "Mouth Ulcer": {
+    "severity": "Low",
+    "specialist": "Dentist",
+    "duration": "7–14 days",
+    "recommendations": [
+      {
+        "type": "Oral Hygiene",
+        "description": "Maintain good oral hygiene using soft toothbrushes."
+      },
+      {
+        "type": "Diet",
+        "description": "Avoid spicy, acidic, or very hot foods."
+      },
+      {
+        "type": "Medication",
+        "description": "Use topical gels or mouth rinses if prescribed."
+      },
+      {
+        "type": "Hydration",
+        "description": "Drink enough fluids to prevent dryness and irritation."
+      }
+    ],
+    "follow_up": "Consult if ulcers persist longer than 2 weeks"
+  },
+
+  "Sickle Cell Anemia": {
+    "severity": "High",
+    "specialist": "Hematologist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Hydration",
+        "description": "Drink plenty of fluids to reduce sickle cell crises."
+      },
+      {
+        "type": "Medication",
+        "description": "Take prescribed medications such as hydroxyurea regularly."
+      },
+      {
+        "type": "Vaccination",
+        "description": "Stay updated on vaccinations to reduce infection risk."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular blood tests and specialist evaluations are necessary."
+      }
+    ],
+    "follow_up": "Seek urgent care for severe pain, fever, or breathing difficulty"
+  },
+
+  "Thalassemia": {
+    "severity": "High",
+    "specialist": "Hematologist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Blood Transfusion",
+        "description": "Regular transfusions may be required for severe cases."
+      },
+      {
+        "type": "Iron Monitoring",
+        "description": "Monitor iron levels to prevent overload complications."
+      },
+      {
+        "type": "Nutrition",
+        "description": "Maintain healthy diet and adequate folic acid intake."
+      },
+      {
+        "type": "Genetic Counseling",
+        "description": "Family counseling may help with reproductive planning."
+      }
+    ],
+    "follow_up": "Routine hematology follow-up is essential"
+  },
+
+  "Cystic Fibrosis": {
+    "severity": "High",
+    "specialist": "Pulmonologist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Respiratory Therapy",
+        "description": "Chest physiotherapy helps clear mucus from lungs."
+      },
+      {
+        "type": "Medication",
+        "description": "Use inhalers, antibiotics, or enzyme supplements as prescribed."
+      },
+      {
+        "type": "Nutrition",
+        "description": "Consume high-calorie and nutrient-rich meals."
+      },
+      {
+        "type": "Exercise",
+        "description": "Regular physical activity may improve lung function."
+      }
+    ],
+    "follow_up": "Seek immediate care for severe breathing difficulty"
+  },
+
+  "Color Blindness": {
+    "severity": "Low",
+    "specialist": "Ophthalmologist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Vision Aids",
+        "description": "Color-corrective lenses may improve color recognition."
+      },
+      {
+        "type": "Education",
+        "description": "Learn adaptive methods for identifying colors."
+      },
+      {
+        "type": "Assistive Tools",
+        "description": "Use apps or labeled systems for color differentiation."
+      },
+      {
+        "type": "Regular Checkup",
+        "description": "Routine eye examinations help monitor eye health."
+      }
+    ],
+    "follow_up": "Consult if sudden visual changes occur"
+  },
+
+  "Trisomy X": {
+    "severity": "Medium",
+    "specialist": "Geneticist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Speech Therapy",
+        "description": "Speech and language therapy may improve communication skills."
+      },
+      {
+        "type": "Educational Support",
+        "description": "Provide individualized learning assistance when necessary."
+      },
+      {
+        "type": "Counseling",
+        "description": "Psychological support may improve emotional well-being."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular developmental evaluations are recommended."
+      }
+    ],
+    "follow_up": "Routine developmental follow-up is advised"
+  },
+  "Autism Spectrum Disorder": {
+    "severity": "Medium",
+    "specialist": "Neurologist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Behavioral Therapy",
+        "description": "Behavioral interventions help improve communication and social interaction skills."
+      },
+      {
+        "type": "Speech Therapy",
+        "description": "Speech and language therapy may improve communication abilities."
+      },
+      {
+        "type": "Routine",
+        "description": "Maintain structured routines and supportive environments."
+      },
+      {
+        "type": "Family Support",
+        "description": "Educate caregivers and family members to provide effective support."
+      }
+    ],
+    "follow_up": "Regular developmental assessments are recommended"
+  },
+
+  "Tendonitis": {
+    "severity": "Low",
+    "specialist": "Orthopedic Doctor",
+    "duration": "Days to weeks",
+    "recommendations": [
+      {
+        "type": "Rest",
+        "description": "Avoid activities that strain the affected tendon."
+      },
+      {
+        "type": "Ice Therapy",
+        "description": "Apply ice packs regularly to reduce swelling and pain."
+      },
+      {
+        "type": "Medication",
+        "description": "Use anti-inflammatory medications only as prescribed."
+      },
+      {
+        "type": "Physical Therapy",
+        "description": "Perform guided stretching and strengthening exercises."
+      }
+    ],
+    "follow_up": "Consult if pain persists beyond 2 weeks"
+  },
+
+  "Sepsis": {
+    "severity": "High",
+    "specialist": "Critical Care Specialist",
+    "duration": "Emergency condition",
+    "recommendations": [
+      {
+        "type": "Emergency Care",
+        "description": "Immediate hospitalization and intensive medical treatment are required."
+      },
+      {
+        "type": "Antibiotics",
+        "description": "Intravenous antibiotics should be started as early as possible."
+      },
+      {
+        "type": "Hydration",
+        "description": "IV fluids help maintain blood pressure and organ function."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Continuous monitoring of vital signs and organ function is necessary."
+      }
+    ],
+    "follow_up": "Emergency medical follow-up required after discharge"
+  },
+
+  "Syphilis": {
+    "severity": "High",
+    "specialist": "Dermatologist",
+    "duration": "Weeks to months",
+    "recommendations": [
+      {
+        "type": "Antibiotics",
+        "description": "Complete the full prescribed antibiotic treatment course."
+      },
+      {
+        "type": "Screening",
+        "description": "Sexual partners should also be tested and treated if required."
+      },
+      {
+        "type": "Prevention",
+        "description": "Practice safe sex and use protective methods consistently."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular blood tests may be needed to confirm recovery."
+      }
+    ],
+    "follow_up": "Consult immediately if neurological symptoms appear"
+  },
+
+  "Human Papillomavirus Infection": {
+    "severity": "Medium",
+    "specialist": "Gynecologist",
+    "duration": "Months to years",
+    "recommendations": [
+      {
+        "type": "Vaccination",
+        "description": "HPV vaccination helps prevent high-risk HPV infections."
+      },
+      {
+        "type": "Screening",
+        "description": "Regular Pap smear and HPV tests are important."
+      },
+      {
+        "type": "Medication",
+        "description": "Topical treatment may help manage genital warts."
+      },
+      {
+        "type": "Prevention",
+        "description": "Practice safe sexual habits to reduce transmission risk."
+      }
+    ],
+    "follow_up": "Consult if persistent lesions or abnormal bleeding occur"
+  },
+
+  "Gonorrhea": {
+    "severity": "Medium",
+    "specialist": "Urologist",
+    "duration": "Days to weeks",
+    "recommendations": [
+      {
+        "type": "Antibiotics",
+        "description": "Take all prescribed antibiotics exactly as directed."
+      },
+      {
+        "type": "Hydration",
+        "description": "Drink adequate water to support urinary health."
+      },
+      {
+        "type": "Prevention",
+        "description": "Avoid unprotected sexual activity during treatment."
+      },
+      {
+        "type": "Partner Care",
+        "description": "Sexual partners should be tested and treated if necessary."
+      }
+    ],
+    "follow_up": "Retesting may be needed after treatment completion"
+  },
+  "Amenorrhea": {
+    "severity": "Medium",
+    "specialist": "Gynecologist",
+    "duration": "Depends on underlying cause",
+    "recommendations": [
+      {
+        "type": "Hormonal Evaluation",
+        "description": "Hormone testing may identify reproductive or endocrine disorders."
+      },
+      {
+        "type": "Lifestyle Changes",
+        "description": "Reduce stress, avoid excessive exercise, and maintain healthy body weight."
+      },
+      {
+        "type": "Nutrition",
+        "description": "Consume balanced meals rich in essential nutrients and iron."
+      },
+      {
+        "type": "Medication",
+        "description": "Hormonal therapy or other medicines may be prescribed if required."
+      }
+    ],
+    "follow_up": "Consult if periods stop for more than 3 months"
+  },
+
+  "Acne Vulgaris": {
+    "severity": "Low",
+    "specialist": "Dermatologist",
+    "duration": "Weeks to months",
+    "recommendations": [
+      {
+        "type": "Skin Care",
+        "description": "Wash face gently twice daily using mild cleansers."
+      },
+      {
+        "type": "Medication",
+        "description": "Apply prescribed topical creams or oral medicines regularly."
+      },
+      {
+        "type": "Diet",
+        "description": "Reduce oily, sugary, and highly processed foods."
+      },
+      {
+        "type": "Hydration",
+        "description": "Drink enough water and maintain proper skin hygiene."
+      }
+    ],
+    "follow_up": "Consult if acne becomes painful, severe, or causes scarring"
+  },
+
+  "Hormonal Acne": {
+    "severity": "Low",
+    "specialist": "Dermatologist",
+    "duration": "Weeks to months",
+    "recommendations": [
+      {
+        "type": "Skin Care",
+        "description": "Use gentle non-comedogenic skin care products."
+      },
+      {
+        "type": "Hormonal Therapy",
+        "description": "Hormonal medications may help regulate breakouts."
+      },
+      {
+        "type": "Diet",
+        "description": "Reduce intake of sugary and processed foods."
+      },
+      {
+        "type": "Hydration",
+        "description": "Maintain proper hydration and skin hygiene."
+      }
+    ],
+    "follow_up": "Consult if acne becomes painful or cystic"
+  },
+  "Chronic Kidney Disease": {
+    "severity": "High",
+    "specialist": "Nephrologist",
+    "duration": "Chronic condition",
+    "recommendations": [
+      {
+        "type": "Diet",
+        "description": "Follow low-salt and kidney-friendly diets to reduce kidney strain."
+      },
+      {
+        "type": "Medication",
+        "description": "Take prescribed blood pressure and kidney medications regularly."
+      },
+      {
+        "type": "Hydration",
+        "description": "Maintain proper fluid intake as advised by doctor."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular kidney function tests and blood pressure monitoring are essential."
+      }
+    ],
+    "follow_up": "Routine nephrology follow-up is required"
+  },
+
+  "Polycystic Kidney Disease": {
+    "severity": "High",
+    "specialist": "Nephrologist",
+    "duration": "Lifelong condition",
+    "recommendations": [
+      {
+        "type": "Monitoring",
+        "description": "Regular kidney imaging and blood pressure checks are necessary."
+      },
+      {
+        "type": "Diet",
+        "description": "Follow kidney-friendly diets with limited salt intake."
+      },
+      {
+        "type": "Hydration",
+        "description": "Drink adequate fluids unless otherwise advised."
+      },
+      {
+        "type": "Medication",
+        "description": "Use prescribed medicines to manage blood pressure and pain."
+      }
+    ],
+    "follow_up": "Seek care if severe flank pain or blood in urine occurs"
+  },
+
+  "Anorexia Nervosa": {
+    "severity": "High",
+    "specialist": "Psychiatrist",
+    "duration": "Months to years",
+    "recommendations": [
+      {
+        "type": "Therapy",
+        "description": "Cognitive behavioral therapy helps improve eating behaviors."
+      },
+      {
+        "type": "Nutrition",
+        "description": "Follow supervised nutritional rehabilitation plans."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Monitor weight, heart rate, and nutritional status regularly."
+      },
+      {
+        "type": "Support",
+        "description": "Family and emotional support improve recovery outcomes."
+      }
+    ],
+    "follow_up": "Immediate care is needed for severe malnutrition or fainting"
+  },
+
+  "Bulimia Nervosa": {
+    "severity": "High",
+    "specialist": "Psychiatrist",
+    "duration": "Months to years",
+    "recommendations": [
+      {
+        "type": "Counseling",
+        "description": "Psychological counseling helps manage binge-purge cycles."
+      },
+      {
+        "type": "Nutrition",
+        "description": "Balanced meal planning should be supervised by professionals."
+      },
+      {
+        "type": "Hydration",
+        "description": "Correct dehydration and electrolyte imbalance promptly."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Regular mental and physical health evaluations are important."
+      }
+    ],
+    "follow_up": "Consult immediately for severe dehydration or weakness"
+  },
+  "Ringworm": {
+    "severity": "Low",
+    "specialist": "Dermatologist",
+    "duration": "2–4 weeks",
+    "recommendations": [
+      {
+        "type": "Antifungal Medication",
+        "description": "Apply antifungal creams or take medicines exactly as prescribed."
+      },
+      {
+        "type": "Hygiene",
+        "description": "Keep the affected skin clean and dry at all times."
+      },
+      {
+        "type": "Prevention",
+        "description": "Avoid sharing towels, clothing, or personal items."
+      },
+      {
+        "type": "Clothing",
+        "description": "Wear loose and breathable clothing to reduce moisture buildup."
+      }
+    ],
+    "follow_up": "Consult if rash spreads or does not improve after treatment"
+  },
+
+  "Athlete's Foot": {
+    "severity": "Low",
+    "specialist": "Dermatologist",
+    "duration": "2–4 weeks",
+    "recommendations": [
+      {
+        "type": "Foot Hygiene",
+        "description": "Keep feet clean and dry, especially between toes."
+      },
+      {
+        "type": "Antifungal Cream",
+        "description": "Apply prescribed antifungal creams or powders regularly."
+      },
+      {
+        "type": "Footwear",
+        "description": "Wear breathable shoes and change socks daily."
+      },
+      {
+        "type": "Prevention",
+        "description": "Avoid walking barefoot in public wet areas."
+      }
+    ],
+    "follow_up": "Consult if infection spreads or becomes painful"
+  },
+
+  "Filariasis": {
+    "severity": "High",
+    "specialist": "Infectious Disease Specialist",
+    "duration": "Months to years",
+    "recommendations": [
+      {
+        "type": "Medication",
+        "description": "Take antiparasitic medicines exactly as prescribed."
+      },
+      {
+        "type": "Mosquito Protection",
+        "description": "Use mosquito nets and repellents regularly."
+      },
+      {
+        "type": "Hygiene",
+        "description": "Maintain proper skin and limb hygiene to prevent infections."
+      },
+      {
+        "type": "Exercise",
+        "description": "Gentle movement and exercises may improve lymphatic drainage."
+      }
+    ],
+    "follow_up": "Consult if swelling worsens or fever develops"
+  },
+
+  "Scurvy": {
+    "severity": "Medium",
+    "specialist": "General Physician",
+    "duration": "Weeks with treatment",
+    "recommendations": [
+      {
+        "type": "Vitamin C",
+        "description": "Take vitamin C supplements regularly if prescribed."
+      },
+      {
+        "type": "Diet",
+        "description": "Consume citrus fruits and vitamin C-rich vegetables daily."
+      },
+      {
+        "type": "Hydration",
+        "description": "Maintain adequate hydration and balanced nutrition."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Monitor gum health and wound healing progress."
+      }
+    ],
+    "follow_up": "Consult if bleeding gums or weakness persists"
+  },
+
+  "Night Blindness": {
+    "severity": "Medium",
+    "specialist": "Ophthalmologist",
+    "duration": "Depends on underlying cause",
+    "recommendations": [
+      {
+        "type": "Vitamin A",
+        "description": "Increase vitamin A intake through food or supplements if advised."
+      },
+      {
+        "type": "Eye Examination",
+        "description": "Regular eye checkups help monitor retinal health."
+      },
+      {
+        "type": "Diet",
+        "description": "Consume carrots, spinach, eggs, and dairy products."
+      },
+      {
+        "type": "Safety",
+        "description": "Avoid driving or risky activities in dim lighting conditions."
+      }
+    ],
+    "follow_up": "Consult if night vision worsens suddenly"
+  },
+
+  "Beriberi": {
+    "severity": "Medium",
+    "specialist": "General Physician",
+    "duration": "Weeks with treatment",
+    "recommendations": [
+      {
+        "type": "Vitamin B1",
+        "description": "Take thiamine supplements regularly as prescribed."
+      },
+      {
+        "type": "Diet",
+        "description": "Consume nutritious foods rich in vitamin B1."
+      },
+      {
+        "type": "Hydration",
+        "description": "Maintain proper hydration and balanced nutrition."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Monitor nerve and heart function improvements regularly."
+      }
+    ],
+    "follow_up": "Consult if weakness or numbness continues"
+  },
+
+  "Spondylitis": {
+    "severity": "Medium",
+    "specialist": "Orthopedic Doctor",
+    "duration": "Chronic condition",
+    "recommendations": [
+      {
+        "type": "Exercise",
+        "description": "Perform stretching and posture-improving exercises regularly."
+      },
+      {
+        "type": "Physical Therapy",
+        "description": "Attend physiotherapy sessions to maintain spinal flexibility."
+      },
+      {
+        "type": "Medication",
+        "description": "Use anti-inflammatory medicines only as prescribed."
+      },
+      {
+        "type": "Posture Care",
+        "description": "Maintain proper sitting and sleeping posture."
+      }
+    ],
+    "follow_up": "Consult if stiffness or mobility problems worsen"
+  },
+
+  "Lymphadenopathy": {
+    "severity": "Medium",
+    "specialist": "General Physician",
+    "duration": "Days to weeks",
+    "recommendations": [
+      {
+        "type": "Medical Evaluation",
+        "description": "Identify and treat the underlying infection or disease."
+      },
+      {
+        "type": "Rest",
+        "description": "Get adequate rest to support immune recovery."
+      },
+      {
+        "type": "Hydration",
+        "description": "Drink enough fluids and maintain balanced nutrition."
+      },
+      {
+        "type": "Monitoring",
+        "description": "Observe lymph node size, tenderness, and associated symptoms."
+      }
+    ],
+    "follow_up": "Consult if swelling persists beyond 2 weeks"
   }
 }
