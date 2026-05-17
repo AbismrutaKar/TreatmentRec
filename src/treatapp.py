@@ -1,18 +1,5 @@
-#!/usr/bin/env python3
-"""
-treatment_api.py  —  Treatment Recommendation Service
-Runs on port 5001 (medibot_api runs on 5000)
-
-Accepts the exact output that medibot_api._build_results() returns and
-maps every condition name to a structured treatment plan.
-
-Endpoints
-─────────
-POST /api/treatment          body: { "results": <medibot results object> }
-GET  /api/treatment          ?condition=Common Cold
-GET  /api/conditions         list all 32 supported condition names
-GET  /api/health
-"""
+# treatapp.py - Treatment Recommendation Service
+# Runs on port 5001
 
 import datetime
 import os
@@ -23,10 +10,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Treatment plans — keyed by the exact condition names medibot produces
-# (matches CONDITIONS list in medibot.py / medibot_api._build_results output)
-# ─────────────────────────────────────────────────────────────────────────────
+# load treatments from data folder
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TREATMENTS_PATH = os.path.join(BASE_DIR, "data", "treatments.json")
@@ -37,11 +21,8 @@ def load_treatments():
 TREATMENTS = load_treatments()
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Helpers
-# ─────────────────────────────────────────────────────────────────────────────
-def _lookup(condition: str):
-    """Exact match first, then case-insensitive partial match."""
+# helper functions
+def _lookup(condition):
     plan = TREATMENTS.get(condition)
     if plan:
         return condition, plan
@@ -52,8 +33,7 @@ def _lookup(condition: str):
     return None, None
 
 
-def _build_plan(condition: str, plan: dict, medibot_data: dict | None = None) -> dict:
-    """Merge treatment plan with any extra context from medibot results."""
+def _build_plan(condition, plan, medibot_data=None):
     today = datetime.date.today().strftime("%B %d, %Y")
     return {
         "condition":       condition,
@@ -73,28 +53,10 @@ def _build_plan(condition: str, plan: dict, medibot_data: dict | None = None) ->
     }
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Routes
-# ─────────────────────────────────────────────────────────────────────────────
+# API routes
 
 @app.route("/api/treatment", methods=["POST"])
 def treatment_from_medibot():
-    """
-    PRIMARY ENDPOINT — called right after medibot_api returns phase=results.
-
-    Body: the exact `results` object from medibot_api._build_results()
-    {
-        "primaryCondition": "Common Cold",
-        "conditions": [...],   // top-5 from ML
-        "urgency": "Low",
-        "risk": 72,
-        "severitySignal": "Mild",
-        "recommendations": [...],   // medibot's generic recs (ignored here)
-        "disclaimer": "..."
-    }
-
-    Returns treatment plans for primaryCondition + up to 2 runner-up conditions.
-    """
     body = request.get_json(silent=True) or {}
 
     # Accept either { results: {...} } or the results object directly
@@ -135,10 +97,6 @@ def treatment_from_medibot():
 
 @app.route("/api/treatment", methods=["GET"])
 def treatment_by_name():
-    """
-    FALLBACK / SIMPLE ENDPOINT
-    GET /api/treatment?condition=Common Cold
-    """
     condition = request.args.get("condition", "").strip()
     if not condition:
         return jsonify({"error": "condition query param is required"}), 400
@@ -152,7 +110,6 @@ def treatment_by_name():
 
 @app.route("/api/conditions", methods=["GET"])
 def list_conditions():
-    """GET /api/conditions — all 32 supported condition names."""
     return jsonify({"count": len(TREATMENTS), "conditions": sorted(TREATMENTS.keys())}), 200
 
 
@@ -170,7 +127,7 @@ def home():
         "endpoints": {
             "POST /api/treatment": "Pass medibot results object → get full treatment plan",
             "GET  /api/treatment": "?condition=<name> → single plan lookup",
-            "GET  /api/conditions": "List all 73 supported conditions",
+            "GET  /api/conditions": "List supported conditions",
             "GET  /api/health":    "Health check",
         }
     }), 200
