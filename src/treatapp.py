@@ -1,6 +1,4 @@
-# treatapp.py - Treatment Recommendation Service
-# Runs on port 5001
-
+#STANDARD INPUTS
 import datetime
 import os
 import json
@@ -54,12 +52,11 @@ def _build_plan(condition, plan, medibot_data=None):
 
 
 # API routes
-
 @app.route("/api/treatment", methods=["POST"])
 def treatment_from_medibot():
     body = request.get_json(silent=True) or {}
 
-    # Accept either { results: {...} } or the results object directly
+    # Accepts either { results: {...} } or the results object directly
     data = body.get("results", body)
 
     primary_name = data.get("primaryCondition", "").strip()
